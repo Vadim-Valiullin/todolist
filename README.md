@@ -8,12 +8,9 @@ TODOLIST - это веб приложение - планировщик, кото
 2. Создайте виртуальное окружение
 3. Установите зависимости 'pip install -r requirements.txt'
 4. Создайте файл .env.py
-5. Впишите в .env.py перерменные:
-'''
-SECRET_KEY=django-insecure-ob%t1%iazrqpd-o%03(e=kx#vb1i5-*k-+e&rq$@+@uhbukeup
-
+5. Впишите в .env.py переменные: 
+'''SECRET_KEY=django-insecure-ob%t1%iazrqpd-o%03(e=kx#vb1i5-*k-+e&rq$@+@uhbukeup
 DEBUG=True
-
 export DB_NAME = todolist
 export DB_USER = postgres
 export DB_USER_PASSWORD = 1
